@@ -6,6 +6,7 @@
 grad0_train/
 ├── demo1/ # 第一版基础实现
 ├── demo1ver2/ # 第二版优化实现
+├── .gitignore # Git忽略文件配置
 └── README.md # 项目总说明文档
 ```
 
@@ -20,8 +21,9 @@ grad0_train/
 数据集来源：[百度网盘链接](https://pan.baidu.com/s/10XRGQAIKGDI5eWLjmaB9Xg?pwd=1111)
 
 ## 🚀 快速开始
-以`demo1ver2`为例：
+推荐使用当前最优版本 `demo1ver2`：
 1.  进入项目目录：`cd demo1ver2`
 2.  安装依赖（如果需要）
-3.  运行主程序：`python main.py`
+3.  查看详细说明：直接打开 `README.md`
+4.  运行主程序：`python main.py`
 
