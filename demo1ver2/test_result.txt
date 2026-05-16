@@ -1,41 +1,42 @@
 ========== BERT新闻分类 实验结果记录 ==========
-Swanlab可视化训练曲线：
-https://swanlab.cn/@sunfeifei/bert-news-classify/runs/ihiay28rdpt9iodxk7u00
-模型：bert-base-chinese
-最大序列长度：48
-批次大小：8
-学习率：2e-5
-训练轮数：15轮
+Swanlab可视化训练曲线:
+https://swanlab.cn/@sunfeifei/bert-news-classify/runs/7z9fkpq2v9kwoc6ai68kw
+模型: bert-base-chinese
+最大序列长度: 64
+批次大小: 8
+学习率: 1.5e-5
+训练轮数: 20轮
 
 ---------- 训练过程最优验证准确率 ----------
-Epoch 1 : 77.50%
-Epoch 2 : 80.90%
-Epoch 3 : 82.10%
-Epoch 6 : 82.30%
-Epoch 9 : 82.80%
-Epoch 13: 82.90%  
+Epoch 1: 78.70%
+Epoch 2: 80.20%
+Epoch 3: 82.20%
+Epoch 5: 83.00%
+Epoch 11: 83.20%
+Epoch 15: 83.30%
+Epoch 18: 83.40%
 
 ---------- 最终测试集结果 ----------
-Test Acc: 0.8252
+Test Acc: 0.8299
 
 ---------- 详细分类报告 ----------
-                    precision    recall  f1-score   support
-  news_agriculture     0.8077    0.7925    0.8000        53
-          news_car     0.8835    0.9192    0.9010        99
-      news_culture     0.9683    0.7922    0.8714        77
-          news_edu     0.8500    0.9189    0.8831        74
-news_entertainment     0.8067    0.8889    0.8458       108
-      news_finance     0.7429    0.7027    0.7222        74
-         news_game     0.7831    0.8125    0.7975        80
-        news_house     0.8478    0.7959    0.8211        49
-     news_military     0.8261    0.8261    0.8261        69
-       news_sports     0.9149    0.8350    0.8731       103
-        news_story     0.7647    0.7647    0.7647        17
-         news_tech     0.7581    0.8246    0.7899       114
-       news_travel     0.8305    0.8305    0.8305        59
-        news_world     0.7368    0.7568    0.7467        74
-             stock     1.0000    0.6429    0.7826        14
+                precision    recall  f1-score  support
+news_agriculture    0.8246    0.8868    0.8545       53
+news_car            0.8857    0.9394    0.9118       99
+news_culture        0.8873    0.8182    0.8514       77
+news_edu            0.8816    0.9054    0.8933       74
+news_entertainment  0.8174    0.8704    0.8430      108
+news_finance        0.7313    0.6622    0.6950       74
+news_game           0.7976    0.8375    0.8171       80
+news_house          0.8696    0.8163    0.8421       49
+news_military       0.8615    0.8116    0.8358       69
+news_sports         0.9560    0.8447    0.8969      103
+news_story          0.8571    0.7059    0.7742       17
+news_tech           0.7500    0.7895    0.7692      114
+news_travel         0.7576    0.8475    0.8000       59
+news_world          0.7973    0.7973    0.7973       74
+stock               0.6923    0.6429    0.6667       14
 
-          accuracy                         0.8252      1064
-         macro avg     0.8347    0.8069    0.8171      1064
-      weighted avg     0.8291    0.8252    0.8252      1064
+accuracy            0.8299      1064
+macro avg           0.8245  0.8117  0.8166  1064
+weighted avg        0.8319  0.8299  0.8297  1064

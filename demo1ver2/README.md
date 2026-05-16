@@ -22,9 +22,9 @@ https://pan.baidu.com/s/10XRGQAIKGDI5eWLjmaB9Xg?pwd=1111#list/path=%2F
 | `data/` | 数据集文件夹，存放训练、验证、测试文本数据 |
 
 ## 实验结果
-- 最优验证集准确率：82.90%
-- 测试集准确率：82.52%
-- 训练过程可视化：[Swanlab链接](https://swanlab.cn/@sunfeifei/bert-news-classify/runs/ihiay28rdpt9iodxk7u00)
+- 最优验证集准确率：83.40%
+- 测试集准确率：82.99%
+- 训练过程可视化：[Swanlab链接](https://swanlab.cn/@sunfeifei/bert-news-classify/runs/7z9fkpq2v9kwoc6ai68kw)
 
 ## 使用方法
 1. 安装依赖：`pip install -r requirements.txt`
