@@ -1,0 +1,48 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# 模型权重
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# 预训练模型文件夹
+bert-base-chinese/
+chinese-bert-wwm/
+roberta/
+model/
+models/
+
+# 数据集和数据文件
+data/
+dataset/
+*.csv
+*.txt
+*.json
+*.zip
+*.rar
+*.gz
+
+# 日志、可视化和运行输出
+swanlog/
+logs/
+runs/
+output/
+wandb/
+lightning_logs/
+
+# 编辑器和系统文件
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tmp
